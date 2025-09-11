@@ -21,7 +21,7 @@ MAE loss控制最终年龄的预测，实现为L1距离
 ![图片](images/Mean-Variance-Loss.png)  
 1. Mean-Variance Loss  
 年龄分类的softmax公式如下所示  
-![图片](images/softmax.pmg)  
+![图片](images/softmax.png)  
 均值和方差计算如下mi和vi所示  
 ![图片](images/mean-variance.png)  
 平均损失分量惩罚估计年龄分布的平均值与真实年龄之间的差异,公式如下：  
